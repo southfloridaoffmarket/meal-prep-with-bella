@@ -32,16 +32,22 @@ export const recipeList = [
         description: 'A delicious creamy chicken dish with sun-dried tomatoes and spinach.'
     },
     {
-        id: 'classic-chili',
-        title: 'Classic Chili',
-        image: chiliImg,
-        description: 'The best classic chili recipe with ground beef and beans.'
+        id: 'tallarines-verdes',
+        title: 'Tallarines Verdes con Lomo',
+        image: tallarinesVerdesImg,
+        description: 'Peruvian green pasta with tender beef, made with a creamy basil sauce.'
     },
     {
         id: 'mac-and-cheese',
         title: 'Baked Mac and Cheese',
         image: macAndCheeseImg,
         description: 'Creamy, cheesy, and perfectly baked mac and cheese.'
+    },
+    {
+        id: 'seven-layer-dip',
+        title: 'Six Layer Dip',
+        image: layeredDipImg,
+        description: 'A delicious layered dip with refried beans, guacamole, sour cream, and more.'
     },
     {
         id: 'japchae',
@@ -74,10 +80,10 @@ export const recipeList = [
         description: 'The best classic meatloaf recipe with a sweet glaze.'
     },
     {
-        id: 'seven-layer-dip',
-        title: 'Seven Layer Dip II',
-        image: layeredDipImg,
-        description: 'A delicious layered dip with refried beans, guacamole, sour cream, and more.'
+        id: 'classic-chili',
+        title: 'Classic Chili',
+        image: chiliImg,
+        description: 'The best classic chili recipe with ground beef and beans.'
     },
     {
         id: 'mexican-picadillo',
@@ -90,12 +96,6 @@ export const recipeList = [
         title: 'Instant Pot Beef Stew',
         image: beefStewImg,
         description: 'Hearty beef stew made quickly in the Instant Pot with tender meat and vegetables.'
-    },
-    {
-        id: 'tallarines-verdes',
-        title: 'Tallarines Verdes con Lomo',
-        image: tallarinesVerdesImg,
-        description: 'Peruvian green pasta with tender beef, made with a creamy basil sauce.'
     },
     {
         id: 'homemade-marinara',
@@ -367,7 +367,7 @@ export const recipes: { [key: string]: Recipe } = {
     },
     'seven-layer-dip': {
         id: 'seven-layer-dip',
-        title: 'Seven Layer Dip II',
+        title: 'Six Layer Dip',
         image: 'https://www.allrecipes.com/thmb/1Hx7J6yT4Unw79zF8mfnZO1uQ8M=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/23176-seven-layer-dip-ii-1x1-1-2000-9a9b0c8c0c1c4c1c8c0c1c4c1c8c0c1c.jpg',
         description: 'A delicious layered dip with refried beans, guacamole, sour cream, and more.',
         ingredients: [
