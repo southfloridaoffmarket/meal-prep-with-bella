@@ -137,7 +137,7 @@ export const recipes: { [key: string]: Recipe } = {
         ],
         prepTime: '10 minutes',
         cookTime: '20 minutes',
-        servings: '4 servings'
+        servings: '10 servings'
     },
     'classic-chili': {
         id: 'classic-chili',
